@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(cors({
     origin : [process.env.FRONTEND_URL],
-    methods:["GET","PUT","DELTE","POST"],
+    methods:["GET","PUT","DELETE","POST"],
     credentials:true,   // For Passing COOKIES to Frontend
 }));
 
